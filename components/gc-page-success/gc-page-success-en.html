@@ -1,0 +1,188 @@
+---
+{
+	"altLangPrefix": "gc-page-success",
+	"breadcrumbs": [
+		{ "title": "GCWeb home", "link": "https://wet-boew.github.io/GCWeb/index-en.html" },
+		{ "title": "Provisional functionality ???", "link": "https://wet-boew.github.io/themes-dist/GCWeb/provisional-en.html" }
+	],
+	"dateModified": "2021-05-27",
+	"description": "Feedback widget for Canada.ca",
+	"language": "en",
+	"title": "Page success widget",
+	"share": "true"
+}
+---
+{% include alert-provisional.html siteroot="../../" %}
+<span class="wb-prettify all-pre hide"></span>
+
+<dl class="horizontal">
+	<dt>Status</dt>
+	<dd>Provisional</dd>
+
+	<dt>Type</dt>
+	<dd>Canada.ca design pattern ???</dd>
+
+	<dt>Last review</dt>
+	<dd>2021-05-27</dd>
+
+	<dt>Conforming to</dt>
+	<dd>Content and IA spec 2.1 ???</dd>
+
+	<dt>Guidance</dt>
+	<dd>???</dd>
+
+	<dt>Technical name</dt>
+	<dd>
+		<ul>
+			<li><code>gc-page-success</code> ???</li>
+		</ul>
+	</dd>
+</dl>
+
+<h2>Working examples</h2>
+<!--Might need separate example pages... IDs will fail validation if both are within the same page-->
+
+
+<h3>Type 1 (yes/no)</h3>
+
+<h3>Type 2 (yes/no and details)</h3>
+
+<h3 id="gc-pg-hlpfl">Page success widget</h3>
+
+<figure class="wb-mltmd" data-wb-mltmd='{"shareUrl": "https://www.youtube.com/watch?v=9znKJqnFuuY"}'>
+	<video title="Suspect">
+		<source type="video/youtube" src="https://www.youtube.com/watch?v=9znKJqnFuuY" />
+	</video>
+	<figcaption>
+		<p>Suspect</p>
+	</figcaption>
+</figure>
+
+<!--<figure class="wb-mltmd">
+	<video poster="demo/video2-en.jpg" title="Training and Development">
+		<source type="video/webm" src="https://wet-boew.github.io/wet-boew-attachments/videos/video2-en.webm" />
+		<source type="video/mp4" src="https://wet-boew.github.io/wet-boew-attachments/videos/video2-en.mp4" />
+		<track src="demo/video2-captions-en.xml" kind="captions" data-type="application/ttml+xml" srclang="en" label="English" />
+	</video>
+	<figcaption>
+		<p>Training and Development (<a href="cpts-lg2-en.html">Transcript</a>)</p>
+	</figcaption>
+</figure>-->
+
+<!--<div data-ajax-prepend="https://wet-boew.github.io/v4.0-ci/demos/data-ajax/ajax/data-ajax-extra-en.html" class="original">
+	<p>Example text. Example text. Example text. Example text. Example text. Example text. Example text. Example text. Example text. Example text.</p>
+</div>-->
+
+<!--<p>Load JSON files:</p>
+<ul>
+<li><button type="button" data-wb-doaction='{ "action": "loadJSON", "source": "#testLoader", "url": "https://wet-boew.github.io/GCWeb/components/wb-doaction/demo/file-1.json" }'>JSON file 1</button></li>
+<li><button type="button" data-wb-doaction='{ "action": "loadJSON", "source": "#testLoader", "url": "https://wet-boew.github.io/GCWeb/components/wb-doaction/demo/file-2.json" }'>JSON file 2</button></li>
+<li><button type="button" data-wb-doaction='{ "action": "loadJSON", "source": "#testLoader", "url": "https://wet-boew.github.io/GCWeb/components/wb-doaction/demo/file-3.json" }'>JSON file 3</button></li>
+<li><button type="button" data-wb-doaction='{ "action": "loadJSON", "source": "#testLoader", "url": "https://wet-boew.github.io/GCWeb/components/wb-doaction/demo/file-4.json" }'>JSON file 4</button></li>
+</ul>
+<div id="testLoader" data-wb-jsonmanager='{
+		"url": "https://wet-boew.github.io/GCWeb/components/wb-doaction/demo/empty.json",
+		"name": "jmanager"
+	}'></div>
+<p>Data loaded: <span data-json-replace="#[jmanager]/data">Nothing loaded yet</span></p>-->
+
+<!--<form action="gc-page-success-en.html" class="wb-postback" data-wb-postback='{"success":".success-message","failure":".failure-message","content":".form-content"}'>
+	<div class="form-content">
+		<div class="form-group">
+			<label for="firstname"><span class="field-name">First Name</span></label>
+			<input class="form-control" id="firstname" name="firstname" type="text" data-rule-minlength="2" />
+		</div>
+		<div class="form-group">
+			<label for="lastname"><span class="field-name">Last Name</span></label>
+			<input class="form-control" id="lastname" name="lastname" type="text" data-rule-minlength="2" />
+		</div>
+		<div class="form-group">
+			<label for="preferredNumber">Preferred: <span class="field-name">Phone Number</span></label>
+			<input class="form-control" id="preferredNumber" name="preferredNumber" type="tel" data-rule-phoneUS="true" />
+		</div>
+		<div class="form-group">
+			<label for="email"><span class="field-name">Email Address</span> (test@domaine)</label>
+			<input class="form-control" id="email" name="email" type="email" />
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</div>
+</form>
+<p class="success-message hide">Thank you!</p>
+<p class="failure-message hide">Something went wrong. Please submit your information via an alternative method.</p>-->
+
+<p>Planned to eventually replace Report a problem. Uses multiple features: <code>wb-postback</code> and <code>data-wb-doaction</code> plugins, as well as <code>nojs-*</code> styles and Font Awesome.</p>
+<div class="row row-no-gutters mrgn-tp-xl">
+	<div class="col-sm-7 col-lg-6">
+		<section class="provisional gc-pg-hlpfl">
+			<div class="well mrgn-bttm-0">
+				<form id="gc-pg-hlpfl-frm" action="index-en.html" method="post" autocomplete="off" class="provisional wb-postback" data-wb-postback='{"success":".gc-pg-hlpfl-thnk","content":"#gc-pg-hlpfl-frm"}'>
+					<input type="hidden" name="pageTitle" value="Provisional functionality - GCWeb theme">
+					<input type="hidden" name="submissionPage" value="https://wet-boew.github.io/themes-dist/GCWeb/provisional-en.html">
+					<input type="hidden" name="tid" value="1234">
+					<input type="hidden" name="auke" value="5678">
+					<div class="gc-pg-hlpfl-btn">
+						<div class="row row-no-gutters">
+							<div class="col-xs-12 col-sm-7 mrgn-tp-sm">
+								<h2 class="mrgn-tp-sm h5">Did you find what you were looking for?</h2>
+							</div>
+							<div class="col-xs-8 col-sm-5 text-right">
+								<button type="submit" name="helpful" value="Yes" class="btn btn-primary">Yes</button>
+								<button type="button" class="btn btn-primary mrgn-lft-sm nojs-hide" data-wb-doaction='[
+									{"action":"removeClass","source":".gc-pg-hlpfl-no","class":"nojs-show"},
+									{"action":"addClass","source":".gc-pg-hlpfl-btn","class":"hide"}
+								]'>No</button>
+							</div>
+						</div>
+					</div>
+					<p class="h3 hidden nojs-show">If not, tell us why:</p>
+					<div class="gc-pg-hlpfl-no nojs-show">
+						<fieldset>
+							<legend class="h4 mrgn-tp-0 mrgn-bttm-md">What was wrong?</legend>
+							<div class="radio">
+								<label>
+									<input name="problem" id="problem01" type="radio" value="The answer I need is missing">
+									The answer I need is missing
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input name="problem" id="problem02" type="radio" value="The information isn’t clear">
+									The information isn’t clear
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input name="problem" id="problem03" type="radio" value="I’m not in the right place">
+									I’m not in the right place
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input name="problem" id="problem04" type="radio" value="Something is broken or incorrect">
+									Something is broken or incorrect
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input name="problem" id="problem05" type="radio" value="Other reason">
+									Other reason
+								</label>
+							</div>
+						</fieldset>
+						<label for="problem06">Please provide more details</label>
+						<p class="small">
+							<strong>(Don’t include any personal information)</strong>
+							<br>
+							<span class="small">Maximum 300 characters</span>
+						</p>
+						<textarea name="details" id="problem06" class="full-width" maxlength="300"></textarea>
+						<button type="submit" name="helpful" value="No" class="btn btn-primary mrgn-tp-md mrgn-bttm-sm">Submit</button>
+					</div>
+				</form>
+				<div class="gc-pg-hlpfl-thnk hide">
+					<p class="h6 mrgn-tp-sm mrgn-bttm-sm"><span class="far fa-check-circle text-success mrgn-rght-sm" aria-hidden="true"></span> Thank you for your feedback</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
