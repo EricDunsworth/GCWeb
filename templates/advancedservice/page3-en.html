@@ -48,12 +48,12 @@
 		<nav role="navigation" class="mrgn-bttm-lg">
 			<h3 class="wb-inv">Document navigation</h3>
 			<ul class="pager">
-				{{% if page.previous -%}}
-				<li class="previous"><a href="{{ page.link }}" rel="prev">Previous<span class="wb-inv">: {{ page.title }}</span></a></li>
-				{{% endif -%}}
-				{{% if page.next -%}}
-				<li class="next"><a href="{{ page.link }}" rel="next">Next<span class="wb-inv">: {{ page.title }}</span></a></li>
-				{{% endif -%}}
+				{{%- if page.previous %}}
+				<li class="previous"><a href="{{ page.previous.link }}" rel="prev">Previous<span class="wb-inv">: {{ page.previous.title }}</span></a></li>
+				{{%- endif -%}}
+				{{%- if page.next %}}
+				<li class="next"><a href="{{ page.next.link }}" rel="next">Next<span class="wb-inv">: {{ page.next.title }}</span></a></li>
+				{{%- endif %}}
 			</ul>
 		</nav>
 	</section>
