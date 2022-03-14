@@ -32,7 +32,7 @@
 </div>
 <div class="row">
 	<section class="col-md-8">
-		<h2>{{secondTitle}}</h2>
+		<h2>{{ page.secondTitle }}</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a adipisci nostrum optio dolorum sint ipsa facilis nisi quisquam laboriosam.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium odio adipisci ad neque distinctio quod molestias, molestiae accusamus quo aspernatur expedita blanditiis quam! Esse cum modi atque, beatae aliquam, dolor.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid hic numquam obcaecati ea, laborum accusamus culpa atque voluptate distinctio et omnis! Alias, beatae, tenetur.</p>
@@ -47,9 +47,9 @@
 		<nav role="navigation" class="mrgn-bttm-lg">
 			<h3 class="wb-inv">Navigation dans le document</h3>
 			<ul class="pager">
-				{{#next}}
-				<li class="next"><a href="{{link}}" rel="next">Suivant<span class="wb-inv"> : {{title}}</span></a></li>
-				{{/next}}
+				{{% if page.next -%}}
+				<li class="next"><a href="{{ page.link }}" rel="next">Suivant<span class="wb-inv"> : {{ page.title }}</span></a></li>
+				{{% endif -%}}
 			</ul>
 		</nav>
 	</section>
